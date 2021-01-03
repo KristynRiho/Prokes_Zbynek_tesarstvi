@@ -1,0 +1,93 @@
+body {
+    color: rgb(54, 54, 63);
+    background-color: rgb(245, 233, 218);
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+h1 {
+    color:rgba(243, 187, 3, 0.822);
+    text-align: center;
+    font-size: 65px;
+    margin: 0;
+    text-shadow: 5px 10px 20px rgba(0,0,0,0.7);
+}
+
+h4 {
+    color:#4d1111;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: bold;
+    margin-top:  0;
+    color:#4d1111;
+    font-size: 26px;
+}
+
+.photogallery,
+.aboutus {
+    background-color:#f8daa160 ;
+}
+
+.footer {
+    background-color: #360404;
+    color: rgb(156, 158, 125);
+    text-align: center;
+    line-height: 1.5;
+    padding: 20px 0;
+    font-size: 14px;
+}
+.footer a {
+    color: rgb(156, 158, 125);
+    text-decoration: none;
+}
+
+.photogallery img {
+    width: 19%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #4d1111;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+.header {
+    background-image: url(obrazky/uvodni-foto/uvod.jpg);
+    padding: 150px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color:  #360404;
+}
+
+.menu li{
+    display: inline-block;
+    
+}
+
+.menu a {
+    color: antiquewhite;
+    text-decoration:none;
+    display: inline-block;
+    padding: 20px 30px;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.menu a:hover ,
+.menu a:focus,
+.menu a:active {
+    background-color: rgba(233, 185, 127, 0.87);
+}
