@@ -39,6 +39,7 @@ h2 {
     line-height: 1.5;
     padding: 20px 0;
     font-size: 14px;
+    margin-top: 500px;
 }
 .footer a {
     color: rgb(156, 158, 125);
@@ -63,6 +64,7 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+   
 }
 
 .menu {
@@ -70,6 +72,7 @@ section {
     padding: 0;
     text-align: center;
     background-color:  #360404;
+    
 }
 
 .menu li{
@@ -92,3 +95,21 @@ section {
     background-color: rgba(233, 185, 127, 0.87);
 }
 
+.contact {
+    box-sizing: border-box;
+    width: 500px;
+    margin-right: 0;
+    padding-left: 10%;
+    padding-right: 0;
+    float: left;
+}
+
+.form {
+    box-sizing: border-box;
+    width: 500px;
+    float:right;
+    margin-top: 0;
+    margin-right: 150px;
+    padding-top: 25px;
+    padding-left: 0;
+}
